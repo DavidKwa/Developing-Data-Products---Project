@@ -8,4 +8,4 @@ The app developed for the assignment is avalilable at: https://davidkwa.shinyapp
 
 The presentation is available at: https://rpubs.com/DavidKwa/148095
 
-Files for the presentation are avalilable on the GitHub: 
+Files for the presentation are avalilable on the GitHub: https://github.com/DavidKwa/Developing-Data-Products---Project
