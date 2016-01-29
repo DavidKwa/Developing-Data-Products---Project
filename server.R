@@ -2,7 +2,7 @@ library(datasets)
 library(dplyr)
 
 shinyServer(function(input, output) {
-    output$table <- renderDataTable({
+        output$table <- renderDataTable({
         disp_seq <- seq(from = input$disp[1], to = input$disp[2], by = 0.1)
         hp_seq <- seq(from = input$hp[1], to = input$hp[2], by = 1)
         data <- transmute(mtcars, Car = rownames(mtcars), MilesPerGallon = mpg, 
